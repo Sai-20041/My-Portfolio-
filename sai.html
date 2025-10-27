@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>personal portfolio</title>
+
+    <img src="background.png" alt="">
+    <link rel="stylesheet" href="sai.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="style.js"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+  <img src="images/4.png" class="Logo">
+  <ul>
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+        <div class="header-text">
+           
+            <h1>Hi,I'm <span>Sai Chaithanya</span> </h1>
+            <p>Full Stack Java Developer</p>
+        </div>
+    </div>
+</div>
+
+<!-- -------------about-------------- -->
+<div id="about">
+<div class="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/7.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="paragraph"> Hi! I’m a passionate and dedicated Full-Stack Java Developer with a strong foundation in both frontend and backend technologies.
+                    I specialize in building responsive and interactive web applications using HTML, CSS, JavaScript, React.js. 
+                     On the backend, I work with Spring Boot and MySQL for robust and scalable server-side development.
+                    I enjoy crafting clean, efficient code and designing user-friendly interfaces that deliver great experiences.
+                    I'm always eager to learn new tools and frameworks, and I thrive in environments where I can grow, collaborate, and contribute to impactful projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front-End</span><br>HTML , CSS , JavaScript, React js <br></li>
+                            <li><span>Back-end</span><br>java , Spring Boot , My SQL<br></li>
+                            <li><span>Tools</span><br>GitHub , VS Code , Eclipse/STS , Postman <br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>B-Tech 2021 - 2025</span><br>Sree Vidyanikethan Engineering College <br>CGPA:7.71</li>
+                            <li><span>Intermediate 2019 - 2021</span><br>Narayana Junior College <br>CGPA:7.8</li>
+                            <li><span>School 2018 - 2019</span><br>Icon e-learning English School <br>CGPA:9.3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+  <!-- ------skills------------ ---->
+<div id="skills">
+<div class="skills-section">
+  <div class="skills-heading">My Skills</div>
+  <div class="skills-grid">
+    <h3>Front-end</h3>
+    <div class="skill-bar">
+      <p>HTML</p>
+      <div class="bar"><div class="fill" data-width="95%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <p>CSS</p>
+      <div class="bar"><div class="fill" data-width="90%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <p>JavaScript</p>
+      <div class="bar"><div class="fill" data-width="85%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <p>React JS</p>
+      <div class="bar"><div class="fill" data-width="80%"></div></div>
+    </div>
+    <h3>Back-end</h3>
+    <div class="skill-bar">
+      <p>Java</p>
+      <div class="bar"><div class="fill" data-width="88%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <p>Spring Boot</p>
+      <div class="bar"><div class="fill" data-width="75%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <p>MySQL</p>
+      <div class="bar"><div class="fill" data-width="78%"></div></div>
+    </div><br>
+    <h3>Tools</h3>
+    <div class="skill-bar">
+      <p>Git & GitHub</p>
+      <div class="bar"><div class="fill" data-width="85%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <p>VS Code</p>
+      <div class="bar"><div class="fill" data-width="85%"></div></div>
+    </div>
+    <div class="skill-bar">
+      <p>Eclipse</p>
+      <div class="bar"><div class="fill" data-width="85%"></div></div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+
+<!-- ---------- Advanced Contact Section ---------- -->
+<section id="contact">
+  <div class="contact-container">
+    <div class="contact-left">
+      <h1 class="sub-title">Get in Touch</h1>
+      <p class="contact-detail"><i class="fas fa-envelope"></i> saichaithanya495@gmail.com</p>
+      <p class="contact-detail"><i class="fas fa-phone"></i> +91 8790510515</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/sai-chaithanya-ab7366289/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Sai-20041"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/SaiChaitha69283"><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <form id="contact-form" onsubmit="return validateForm(event)">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <textarea id="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+</body>
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+  
+</script>
+
+
+
+</html>
